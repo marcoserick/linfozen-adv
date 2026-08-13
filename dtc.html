@@ -47,11 +47,7 @@ src="https://www.facebook.com/tr?id=1016288791040281&ev=PageView&noscript=1"
       "@type": "Organization",
       "@id": "https://linfozen.hubaran.com/#organization",
       "name": "Linfozen",
-      "url": "https://linfozen.hubaran.com/",
-      "brand": {
-        "@type": "Brand",
-        "name": "Linfozen"
-      }
+      "url": "https://linfozen.hubaran.com/"
     },
     {
       "@type": "WebSite",
@@ -65,9 +61,12 @@ src="https://www.facebook.com/tr?id=1016288791040281&ev=PageView&noscript=1"
     {
       "@type": "Product",
       "@id": "https://linfozen.hubaran.com/dtc#product",
-      "name": "Linfozen",
+      "name": "Linfozen Lymphatic Drops",
       "url": "https://linfozen.hubaran.com/dtc",
-      "description": "Linfozen is a dietary supplement formulated to support lymphatic health, circulation and overall wellness.",
+      "image": [
+        "https://linfozen.com/dtc/assets/img/linfozen-lymphatic-drops-1254w.webp"
+      ],
+      "description": "Linfozen Lymphatic Drops are formulated to support your body's natural drainage process, helping ease puffiness, bloating, and fluid retention while supporting circulation and steady energy.",
       "brand": {
         "@type": "Brand",
         "name": "Linfozen"
@@ -82,6 +81,22 @@ src="https://www.facebook.com/tr?id=1016288791040281&ev=PageView&noscript=1"
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@id": "https://linfozen.hubaran.com/#organization"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
         }
       },
       "aggregateRating": {
